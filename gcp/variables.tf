@@ -4,6 +4,11 @@ variable "app_name" {
   default     = "mage-data-prep"
 }
 
+variable "credentials" {
+  description = "Credentials"
+  default     = "~/.google/credentials/google_credentials.json"
+}
+
 variable "container_cpu" {
   description = "Container cpu"
   default     = "2000m"
